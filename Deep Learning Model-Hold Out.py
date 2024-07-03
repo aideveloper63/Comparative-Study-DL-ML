@@ -346,12 +346,11 @@ for iteration in range(num_iterations):
 
 
     # Gradient Boosted Neural Network without Lasso feature selection
-    # Following the code from authors:
-    # family-names: "Emami", given-names: "Seyedsaman", orcid: "https://orcid.org/0000-0002-6306-1180" ,- family-names: "Martínez-Muñoz"
-    # given-names: "Gonzalo", #   orcid: "https://orcid.org/0000-0002-6125-6056", # title: "Gradient Boosted Neural Network", # version: 0.0.2, # date-released: 2021-01-27
+
+    # This section of code uses the GNEGNEClassifier from the GBNN package:
+    # Authors: Emami, Seyedsaman and Martýnez-Muñoz, Gonzalo
     # Repository: "https://github.com/GAA-UAM/GBNN"
     # Paper: "https://ieeexplore.ieee.org/document/10110967"
-    # for this specific part as below:
     model_gbnn_without_lasso = gbnn.GNEGNEClassifier(total_nn=200, num_nn_step=1, eta=1.0, solver='adam',
                                                      subsample=0.5, tol=0.0, max_iter=200, random_state=None,
                                                      activation='logistic')
@@ -360,13 +359,13 @@ for iteration in range(num_iterations):
     accuracy_gbnn_without = accuracy_score(y_test, y_pred_gbnn_without)
     accuracy_values_gbnn_without_lasso.append(accuracy_gbnn_without * 100)
 
+    
     # Gradient Boosted Neural Network with Lasso feature selection
-    # Following the code from authors:
-    # family-names: "Emami", given-names: "Seyedsaman", orcid: "https://orcid.org/0000-0002-6306-1180" ,- family-names: "Martínez-Muñoz"
-    # given-names: "Gonzalo", #   orcid: "https://orcid.org/0000-0002-6125-6056", # title: "Gradient Boosted Neural Network", # version: 0.0.2, # date-released: 2021-01-27
+    
+    # This section of code uses the GNEGNEClassifier from the GBNN package:
+    # Authors: Emami, Seyedsaman and Martýnez-Muñoz, Gonzalo
     # Repository: "https://github.com/GAA-UAM/GBNN"
     # Paper: "https://ieeexplore.ieee.org/document/10110967"
-    # for this specific part as below:
     model_gbnn_with_lasso = gbnn.GNEGNEClassifier(total_nn=200, num_nn_step=1, eta=1.0, solver='adam',
                                                   subsample=0.5, tol=0.0, max_iter=200, random_state=None,
                                                   activation='logistic')
