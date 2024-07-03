@@ -22,7 +22,7 @@ np.random.seed(10)
 
 # loading the dataset
 try:
-    data_math = pd.read_csv('student-dataset.csv', sep=';')
+    data_math = pd.read_csv('student-dataset.csv')
 except Exception as e:
     print("Reading the CSV file resulted in an error:")
     print(str(e))
