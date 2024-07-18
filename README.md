@@ -16,7 +16,7 @@ ARTICLE-NUMBER = {46},
 URL = {https://www.mdpi.com/2227-9709/11/3/46},
 DOI = {10.3390/informatics11030046}
 }
-```markdown
+```bibtex
 
 ## Link to our Paper
 [Read the Paper Here](https://www.mdpi.com/2227-9709/11/3/46)
