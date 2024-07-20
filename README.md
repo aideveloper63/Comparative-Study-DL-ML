@@ -23,3 +23,25 @@ DOI = {10.3390/informatics11030046}
 [Read the Paper Here](https://www.mdpi.com/2227-9709/11/3/46)
 
 
+
+# Project Description
+This project evaluates and enhances ten different AI predictive models, encompassing both machine learning and deep learning models, which are either well-established or cutting-edge techniques. 
+We employ a dual evaluation approach, utilising both k-fold cross-validation and holdout methods. Moreover, we explore the importance of feature selection using the ubiquitous Lasso for dimensionality reduction to improve model efficiency. Our assessment includes:
+
+## Machine Learning Models
+- **k-Nearest Neighbors (kNNs)**
+- **Support Vector Machines (SVMs)**
+- **Decision Trees (DTs)**
+- **Linear Regression**
+- **Logistic Regression**
+- **Random Forest**
+- **Extreme Gradient Boosting (XGBoost)**
+
+## Deep Learning Architectures
+- **Feed-Forward Fully Connected Neural Network (FFNN)**
+- **Convolutional Neural Networks (CNNs)**
+- **Gradient-Boosted Neural Networks (GBNNs)**
+For the GBNN model, we utilized a package available at the following link: [https://github.com/GAA-UAM/GBNN].
+
+
+
