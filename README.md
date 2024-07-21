@@ -20,8 +20,9 @@ DOI = {10.3390/informatics11030046}
 ```
 
 ## Link to our Paper
-[Read the Paper Here](https://www.mdpi.com/2227-9709/11/3/46)
+[Evaluating and Enhancing Artificial Intelligence Models for Predicting Student Learning Outcomes](https://www.mdpi.com/2227-9709/11/3/46)
 
+Informatics 2024, 11(3), 46; https://doi.org/10.3390/informatics11030046
 
 
 # Project Description
