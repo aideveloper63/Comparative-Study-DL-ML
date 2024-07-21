@@ -1,5 +1,5 @@
 # Title
-Evaluating and Enhancing Artificial Intelligence Models for Predicting Student Learning Outcomes
+**Evaluating and Enhancing Artificial Intelligence Models for Predicting Student Learning Outcomes**
 
 ## Citation
 If you use this source code in your work, please cite our work by using the following BibTeX entry.
