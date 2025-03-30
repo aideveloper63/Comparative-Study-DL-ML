@@ -30,8 +30,8 @@ except Exception as e:
     print(str(e))
 
 
-data_math['Result'] = ['Pass' if x > 10 else 'Fail' for x in data_math['G3']]
-data_math = data_math.drop(columns='G3', axis=1)
+data_math['Result'] = ['Pass' if x > 10 else 'Fail' for x in data_math['Grade']]
+data_math = data_math.drop(columns='Grade', axis=1)
 
 # Printing the number of columns, names of columns with the first few rows of the dataset
 print(data_math.columns)
